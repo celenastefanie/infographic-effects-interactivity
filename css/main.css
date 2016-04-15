@@ -1,0 +1,379 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.box-1 {
+  background-color: #c3dbd0;
+  opacity;
+}
+
+.box-2 {
+  background-color: #dbe9a8;
+  opacity: 0;
+}
+
+.box-3 {
+  background-color: #acac68;
+  position: relative;
+  opacity: 0;
+}
+
+.box-4 {
+  background-color: #8f7665;
+  opacity: 0;
+}
+
+.box-animate {
+  opacity: 1;
+  transition: all 200ms ease-in
+}
+
+.header {
+  width: 100%;
+  display: block;
+}
+
+.box-2:hover .small-heart {
+  animation: pulse .5s linear infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes pulse {
+
+  0% {
+    transform: scale(.9);
+  }
+
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+.box-2 {
+  overflow: auto;
+}
+
+.heart-and-pulse {
+  width: 90%;
+  float: right;
+}
+
+.choles-p, .box-2-h2 {
+  color: #8f7665;
+}
+
+.calcium-p, .box-3-h2 {
+  color: #fff;
+}
+
+.box-4-h2, .footprint-p {
+  color: #dbe9a8;
+}
+
+.box-2-h2, .box-3-h2, .box-4-h2 {
+  font-family: "Montez", cursive;
+  text-align: center;
+  font-weight: normal;
+}
+
+p {
+  font-family: "Pompiere", cursive;
+}
+
+.needs-box {
+  width: 90%;
+  padding-left: 5%;
+}
+
+.bone-1 {
+  position: absolute;
+  width: 3%;
+  top: 35%;
+  left: 20px;
+  transform: rotate(-20deg);
+  transform-origin: center;
+}
+
+.bone-2 {
+  position: absolute;
+  width: 3.2%;
+  top: 38%;
+  right: 9%;
+  transform: rotate(45deg);
+  transform-origin: center;
+}
+
+.bone-animate {
+  animation: jiggle 250ms linear;
+}
+
+@keyframes jiggle {
+  0% {
+    transform: rotate(0);
+  }
+
+  25% {
+    transform: rotate(15deg);
+  }
+
+  50% {
+    transform: rotate(-15deg);
+  }
+
+  75% {
+    transform: rotate(0);
+  }
+
+  85% {
+    transform: rotate(15deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+.foot-1 {
+  width: 70%;
+}
+
+.foot-2 {
+  width: 60%;
+  padding-top: 12%;
+}
+
+.foot-3 {
+  width: 50%;
+  padding-top: 24%;
+}
+
+.foot-4 {
+  width: 40%;
+}
+
+.foot-5 {
+  width: 30%;
+  padding-top: 12%;
+}
+
+.foot-6 {
+  width: 20%;
+  padding-top: 24%;
+}
+
+.foot-cap {
+  text-align: center;
+  color: #dbe9a8;
+  margin-right: 0;
+}
+
+.feet {
+  width: 30%;
+  text-align: center;
+  position: relative;
+}
+
+.percentage {
+  position: absolute;
+  left: 74%;
+  bottom: 40%;
+  opacity: 0;
+  color: #dbe9a8;
+}
+
+.feet:hover .percentage {
+  opacity: 1;
+
+
+}
+
+.content {
+  position: relative;
+
+}
+
+.leaf-1 {
+  position: absolute;
+  width: 10%;
+  top: 0%;
+  transform: rotate(30deg);
+  left: -3%;
+  animation: fall 14s linear;
+  animation: sway 5s linear;
+}
+
+.leaf-2 {
+  position: absolute;
+  width: 10%;
+  top: 0%;
+  transform: rotate(190deg);
+  left: 300%;
+  animation: fall 10s linear;
+  animation: sway 5s linear;
+}
+
+@keyframes fall {
+  0% {
+    top: 0;
+  }
+
+  100% {
+    top: 300%;
+  }
+}
+
+@keyframes sway {
+  0% {
+    left: 0;
+  }
+
+  25% {
+    left: 300%;
+  }
+
+  50% {
+    left: 100%;
+  }
+
+  75% {
+    left: 300%;
+  }
+
+  100% {
+    left: 0%;
+  }
+}
+
+@media only screen and (min-width: 26em) {
+
+  .bone-2 {
+    position: absolute;
+    width: 2.6%;
+    top: 35%;
+    right: 20%;
+    transform: rotate(45deg);
+    transform-origin: center;
+  }
+
+  .leaf-1, .leaf-2 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 30em) {
+
+  .bone-2, .bone-1 {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .feet {
+    width: 16%;
+    text-align: center;
+  }
+
+  .foot-1 {
+    width: 70%;
+  }
+
+  .foot-2 {
+    width: 60%;
+    padding-top: 15%;
+  }
+
+  .foot-3 {
+    width: 50%;
+    padding-top: 30%;
+  }
+
+  .foot-4 {
+    width: 40%;
+    padding-top: 55%;
+  }
+
+  .foot-5 {
+    width: 30%;
+    padding-top: 69%;
+  }
+
+  .foot-6 {
+    width: 20%;
+    padding-top: 79%;
+  }
+
+  .bone-2, .bone-1 {
+    display: none;
+  }
+
+  .needs-box {
+    width: 90%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .heart-and-pulse {
+    width: 90%;
+    float: right;
+  }
+
+  .heart {
+    float: right;
+    padding-top: 4%;
+  }
+
+  .bones {
+    float: left;
+  }
+
+  .feet-carbon {
+    float: right;
+  }
+
+  .feet {
+    padding-top: 5%;
+  }
+
+  .box-4-h2 {
+    padding: 15% 5% 2% 5%;
+  }
+
+  .needs-box {
+    padding-top: 9%;
+  }
+
+  .box-3 {
+    padding: 0 5%;
+  }
+
+  .leaf-1, .leaf-2 {
+    display: block;
+  }
+
+}
+
+@media only screen and (min-width: 65em) {
+
+  .leaf-2 {
+    top: 115%;
+  }
+
+}

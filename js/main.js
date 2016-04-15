@@ -10,7 +10,7 @@ $boxTwo.waypoint(function (direction) {
   } else {
 
   }
-}, { offset: '50%'});
+}, { offset: '60%'});
 
 $boxThree.waypoint(function (direction) {
   if (direction == 'down') {
@@ -18,7 +18,7 @@ $boxThree.waypoint(function (direction) {
   } else {
 
   }
-}, { offset: '50%'});
+}, { offset: '60%'});
 
 $boxFour.waypoint(function (direction) {
   if (direction == 'down') {
@@ -26,7 +26,7 @@ $boxFour.waypoint(function (direction) {
   } else {
 
   }
-}, { offset: '50%'});
+}, { offset: '70%'});
 
 $boneOne.waypoint(function (direction) {
   if (direction == 'down') {

@@ -39,7 +39,7 @@ body {
 
 .box-animate {
   opacity: 1;
-  transition: all 200ms ease-in
+  transition: all 200ms ease-in;
 }
 
 .header {
@@ -122,6 +122,7 @@ p {
 }
 
 @keyframes jiggle {
+
   0% {
     transform: rotate(0);
   }
@@ -282,6 +283,7 @@ p {
 }
 
 @keyframes fall {
+
   0% {
     top: 0;
   }
@@ -292,6 +294,7 @@ p {
 }
 
 @keyframes sway {
+
   0% {
     left: 0;
   }
@@ -429,7 +432,7 @@ p {
 
   .leaf-2 {
     top: 115%;
-    width: 5%
+    width: 5%;
   }
 
 }

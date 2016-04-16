@@ -10,7 +10,7 @@ $boxTwo.waypoint(function (direction) {
   } else {
 
   }
-}, { offset: '60%'});
+}, {offset: '60%'});
 
 $boxThree.waypoint(function (direction) {
   if (direction == 'down') {
@@ -18,7 +18,7 @@ $boxThree.waypoint(function (direction) {
   } else {
 
   }
-}, { offset: '60%'});
+}, {offset: '60%'});
 
 $boxFour.waypoint(function (direction) {
   if (direction == 'down') {
@@ -26,7 +26,7 @@ $boxFour.waypoint(function (direction) {
   } else {
 
   }
-}, { offset: '70%'});
+}, {offset: '70%'});
 
 $boneOne.waypoint(function (direction) {
   if (direction == 'down') {
@@ -34,7 +34,7 @@ $boneOne.waypoint(function (direction) {
   } else {
     $boneOne.removeClass('bone-animate');
   }
-}, { offset: '50%'});
+}, {offset: '50%'});
 
 $boneTwo.waypoint(function (direction) {
   if (direction == 'down') {
@@ -42,4 +42,4 @@ $boneTwo.waypoint(function (direction) {
   } else {
     $boneTwo.removeClass('bone-animate');
   }
-}, { offset: '50%'});
+}, {offset: '50%'});

@@ -75,15 +75,15 @@ body {
   color: #8f7665;
 }
 
-.calcium-p, .box-3-h1 {
+.calcium-p, .box-3-h2 {
   color: #fff;
 }
 
-.box-4-h1, .footprint-p {
+.box-4-h3, .footprint-p {
   color: #dbe9a8;
 }
 
-.box-2-h1, .box-3-h1, .box-4-h1 {
+.box-2-h1, .box-3-h2, .box-4-h3 {
   font-family: "Montez", cursive;
   text-align: center;
   font-weight: normal;
@@ -408,7 +408,7 @@ p {
     padding-top: 5%;
   }
 
-  .box-4-h1 {
+  .box-4-h3 {
     padding: 15% 5% 2% 5%;
   }
 

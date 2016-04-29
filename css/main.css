@@ -48,7 +48,7 @@ body {
 
 .small-heart {
   animation: pulse .5s linear infinite alternate;
-  transform-origin: center;
+  transform-origin: 48.7px 51.6px;
 }
 
 @keyframes pulse {
@@ -215,43 +215,49 @@ p {
 
 .foot-1:hover {
   transition: all .5s linear;
+  -webkit-transform: scale(1.1);
   transform: scale(1.1);
-  -webkit-transform: scale(1.3);
+  -webkit-transform-origin: bottom center;
   transform-origin: bottom center;
 }
 
 .foot-2:hover {
   transition: all .5s linear;
+  -webkit-transform: scale(1.2);
   transform: scale(1.2);
-  -webkit-transform: scale(1.3);
+  -webkit-transform-origin: bottom center;
   transform-origin: bottom center;
 }
 
 .foot-3:hover {
   transition: all .5s linear;
-  transform: scale(1.3);
   -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  -webkit-transform-origin: bottom center;
   transform-origin: bottom center;
 }
 
 .foot-4:hover {
   transition: all .5s linear;
+  -webkit-transform: scale(1.2);
   transform: scale(1.2);
-  -webkit-transform: scale(1.3);
+  -webkit-transform-origin: bottom center;
   transform-origin: bottom center;
 }
 
 .foot-5:hover {
   transition: all .5s linear;
+  -webkit-transform: scale(1.5);
   transform: scale(1.5);
-  -webkit-transform: scale(1.3);
+  -webkit-transform-origin: bottom center;
   transform-origin: bottom center;
 }
 
 .foot-6:hover {
   transition: all .5s linear;
+  -webkit-transform: scale(1.9);
   transform: scale(1.9);
-  -webkit-transform: scale(1.3);
+  -webkit-transform-origin: bottom center;
   transform-origin: bottom center;
 }
 
